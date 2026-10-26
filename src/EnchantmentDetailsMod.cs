@@ -2,7 +2,7 @@ using EnchantmentDetails;
 using System;
 using MelonLoader;
 
-[assembly: MelonInfo(typeof(EnchantmentDetailsMod), "Enchantment Details", "1.0.0", "vergir")]
+[assembly: MelonInfo(typeof(EnchantmentDetailsMod), "Enchantment Details", "1.0.1", "vergir")]
 [assembly: MelonGame("Moon Studios", "NoRestForTheWicked")]
 // MelonLoader would otherwise apply every [HarmonyPatch] in this assembly by itself, ignoring Enabled (and the INERT build).
 [assembly: HarmonyDontPatchAll]
