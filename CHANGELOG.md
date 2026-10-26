@@ -1,11 +1,5 @@
 # Changelog
 
-## 1.0.1
-
-* Fixed: in-combat health regeneration showed ten times its real rate (`20/s` instead of `2/s`). The game's
-  `HealthRegen` value is per 10 seconds; it is now displayed as a tenth of the value per second. Drain rates
-  (Health/Focus) were already correct and are unchanged.
-
 ## 1.0.0
 
 First public release.
